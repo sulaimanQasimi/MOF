@@ -1,2 +1,40 @@
-*.pyc
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Django / local runtime files
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Test / coverage output
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE / OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
