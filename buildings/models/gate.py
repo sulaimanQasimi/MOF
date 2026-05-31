@@ -1,4 +1,5 @@
 from django.db import models
+
 class Gate(models.Model):
     name = models.CharField(max_length=100)
     code = models.CharField(max_length=50, unique=True)
